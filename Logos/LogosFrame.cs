@@ -21,5 +21,11 @@ namespace Logos
         {
             
         }
+
+        private void codeEditor_Load(object sender, EventArgs e)
+        {
+            codeEditor.Encoding = Encoding.UTF8;
+            codeEditor.Font = new Font("Consolas", 24);
+        }
     }
 }

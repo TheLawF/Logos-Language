@@ -32,31 +32,32 @@ namespace Logos
         /// </summary>
         private void InitializeComponent()
         {
-            this.textEditorControl1 = new ICSharpCode.TextEditor.TextEditorControl();
+            this.codeEditor = new ICSharpCode.TextEditor.TextEditorControl();
             this.SuspendLayout();
             // 
-            // textEditorControl1
+            // codeEditor
             // 
-            this.textEditorControl1.IsReadOnly = false;
-            this.textEditorControl1.Location = new System.Drawing.Point(1, -2);
-            this.textEditorControl1.Name = "textEditorControl1";
-            this.textEditorControl1.Size = new System.Drawing.Size(799, 451);
-            this.textEditorControl1.TabIndex = 0;
-            this.textEditorControl1.Text = "textEditorControl1";
+            this.codeEditor.IsReadOnly = false;
+            this.codeEditor.Location = new System.Drawing.Point(1, -2);
+            this.codeEditor.Name = "codeEditor";
+            this.codeEditor.Size = new System.Drawing.Size(799, 451);
+            this.codeEditor.TabIndex = 0;
+            this.codeEditor.Text = "textEditorControl1";
+            this.codeEditor.Load += new System.EventHandler(this.codeEditor_Load);
             // 
             // LogosFrame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textEditorControl1);
+            this.Controls.Add(this.codeEditor);
             this.Name = "LogosFrame";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.LogosFrame_Load);
             this.ResumeLayout(false);
         }
 
-        private ICSharpCode.TextEditor.TextEditorControl textEditorControl1;
+        private ICSharpCode.TextEditor.TextEditorControl codeEditor;
 
         #endregion
     }
