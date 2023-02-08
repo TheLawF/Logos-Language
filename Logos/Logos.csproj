@@ -88,6 +88,7 @@
     <ItemGroup>
       <Content Include="Highlight\SyntaxModes.xml" />
       <Content Include="Highlight\TSQL-Mode.xshd" />
+      <Content Include="README.md" />
       <Content Include="Resources\Font\JetBrainsMono[wght].ttf" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
