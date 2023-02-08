@@ -16,5 +16,10 @@ namespace Logos
         {
             InitializeComponent();
         }
+
+        private void LogosFrame_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
