@@ -59,6 +59,6 @@ namespace Logos
 
         private ICSharpCode.TextEditor.TextEditorControl codeEditor;
 
-        #endregion
+     #endregion
     }
 }

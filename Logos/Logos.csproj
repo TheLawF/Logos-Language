@@ -49,6 +49,7 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Logics\Symbols\LogicOperators.cs" />
         <Compile Include="LogosFrame.cs">
             <SubType>Form</SubType>
         </Compile>
@@ -81,6 +82,9 @@
     </ItemGroup>
     <ItemGroup>
         <None Include="App.config" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Highlight" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
