@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!-- syntaxdefinition for TSQL 2000 by Yoshihiro Kawabata -->
 
-<SyntaxDefinition name="TSQL" extensions=".sql">
+<SyntaxDefinition name="JackC#" extensions=".sql">
 	
 	<Properties>
 		<Property name="LineComment" value="--"/>
